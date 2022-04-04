@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4671163539275654241}
   - component: {fileID: 8441870554706177904}
   - component: {fileID: 4791276660800264546}
+  - component: {fileID: 5588663163297755013}
   m_Layer: 0
   m_Name: Thorn
-  m_TagString: Untagged
+  m_TagString: Thorn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,7 +106,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!60 &4791276660800264546
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -282,3 +283,18 @@ PolygonCollider2D:
       - {x: -0.725, y: -0.9666667}
       - {x: -0.8083334, y: -0.8833334}
       - {x: -0.7666667, y: -0.8416667}
+--- !u!114 &5588663163297755013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4671163539275654240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1dde035adb03a42b5d0935628771ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  speed: 5
+  _rb: {fileID: 8441870554706177904}
